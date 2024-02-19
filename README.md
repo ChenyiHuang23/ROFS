@@ -1,23 +1,7 @@
-# Dual Recurrent Neural Network (DRNN)
+# ROFS
 
+This Matlab code was created based on the algorithm proposed by
 
-The code in this toolbox implements the "A New End-to-End Monitoring Framework for Nonlinear Dynamic Processes with Unknown Noise Statistics". 
+ Chenyi Huang, Pan Shang, and Xianchao Xiu, ARiemannian Augmented Lagrangian Method for Structured Sparse PCA.
 
-
-### Quick Testing
-
-Directly run demo.py to train models using the dataset of ship.
-
-### Citation
-Please give credit to this paper if this code is useful and helpful for your research.
-
-
-
-
-
-
-
-
-
-
-
+Please give credit to this paper if you use the code for your research.
