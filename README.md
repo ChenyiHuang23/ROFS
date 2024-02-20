@@ -1,7 +1,11 @@
 # ROFS
 
-This Matlab code was created based on the algorithm proposed by
+This Matlab code was created based on the algorithm proposed by 
+Chenyi Huang, Pan Shang, and Xianchao Xiu, ARiemannian Augmented Lagrangian Method for Structured Sparse PCA.
 
- Chenyi Huang, Pan Shang, and Xianchao Xiu, ARiemannian Augmented Lagrangian Method for Structured Sparse PCA.
 
-Please give credit to this paper if you use the code for your research.
+## quick Testing
+Directly run demo.m to train models using the dataset of COIL20.  
+
+## Citation
+Please give credit to this paper if this code is useful and helpful for your research.
