@@ -4,7 +4,7 @@ This Matlab code was created based on the algorithm proposed by
 Chenyi Huang, Pan Shang, and Xianchao Xiu, ARiemannian Augmented Lagrangian Method for Structured Sparse PCA.
 
 
-## quick Testing
+## Quick Testing
 Directly run demo.m to train models using the dataset of COIL20.  
 
 ## Citation
