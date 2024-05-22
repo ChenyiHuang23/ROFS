@@ -14,15 +14,15 @@ function A = solve(Y, lambda, label)
         else
             switch label
                 case 'Hard'
-                    B = Hard_Thresholding(normY(d), lambda);
+                    B = Hard_Thresholding(normY(i), lambda);
                 case 'soft'
-                    B = Generalized_Soft_Thresholding(normY(d), lambda, 0.5);
+                    B = Generalized_Soft_Thresholding(normY(i), lambda, 0.5);
                 case 'Logarithm'
-                    B = Logarithm(normY(d), lambda, 1e-1);
+                    B = Logarithm(normY(i), lambda, 1e-1);
                 case 'LSP'
-                    B = GAI_LSP(normY(d),lambda,1e-6,100);
+                    B = GAI_LSP(normY(i),lambda,1e-6,100);
                 case 'ETP'
-                    B = GAI_ETP(normY(d),lambda,1e-4, 100);
+                    B = GAI_ETP(normY(i),lambda,1e-4, 100);
                 otherwise
                     error('未知的阈值函数标签');
             end
